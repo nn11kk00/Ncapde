@@ -18,6 +18,7 @@
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="https://kit.fontawesome.com/b61f52495f.js" crossorigin="anonymous"></script>
 
         <!-- PAGE LEVEL PLUGIN STYLES -->
         <link href="css/animate.css" rel="stylesheet">
@@ -35,6 +36,17 @@
             }
             .skills-btn p{
                 text-align: center;
+            }
+
+            .serviceWeb{
+                background-color: #814d42;
+            }
+
+            .pDisenador{
+                border-radius: 5px;
+                border: 3px solid #814d42;;
+                display: inline-block;
+                background-color: #814d42;
             }
 
         </style>
@@ -95,20 +107,33 @@
         <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-8 sm-margin-b-60">
                         <div class="promo-block-divider">
                             <h1 class="promo-block-title">Hola <br/> Soy Nico!</h1>
-                            <p class="promo-block-text">Diseñador &amp; Comunicador Digital</p>
+                            <p class="promo-block-text pDisenador"> Diseñador &amp; Comunicador Digital </p>
                         </div>
                         <ul class="list-inline">
-                            <li><a href="https://www.instagram.com/n.capde/" class="social-icons"><i class="icon-social-instagram"></i></a></li>
-                            <li><a href="https://www.behance.net/alexcv" class="social-icons"><i class="icon-social-behance"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/nicocv/" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/n.capde/" class="social-icons"><i class="icon-social-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.behance.net/alexcv" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/nicocv/" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://drive.google.com/file/d/1qGPKzt5rLAPzZdexAQ_GlKpapfTpwS7d/view" class="social-icons"><i class="far fa-file-alt"></i></a></li>
+
+
+                            
                         </ul>
                     </div>
+
+                    <div class="col-sm-4 " >
+                        <img style="border: 4px solid white;border-radius: 50%"  class="img-responsive" src="img/1920x1080/RNico.png" alt="Ilustracion de Nicolas capdevielle">
+                    </div>
+
                 </div>
+
+                
+
                 <!--// end row -->
             </div>
+            
         </div>
         <!--========== SLIDER ==========-->
 
@@ -134,11 +159,26 @@
                           
                         </div>
                         <div class="skills-btn">  <p style="color: white;">Programas & Más</p>
-                            <p > <span class="btn btn-success">HTML</span> <span class="btn btn-success">CSS</span>  <span class="btn btn-danger">SASS</span>  <span class="btn btn-success">BOOTSTRAP</span>  <span class="btn btn-warning">WORDPRESS</span>  <span class="btn btn-success">FILEZILLA</span>  <span class="btn btn-danger">GIT</span> <span class="btn btn-success">SEO <i>B&aacute;sico</i></span>
-                            
-                            <span class="btn btn-success">PHOTOSHOP</span>  <span class="btn btn-warning">ILLUSTRATOR</span>  <span class="btn btn-danger">XD</span>  <span class="btn btn-danger">INDESIGN</span>
-                           
-                            <span class="btn btn-warning">AFTER EFFECTS</span>  <span class="btn btn-success">FILMORA</span>  <span class="btn btn-danger">PREMIERE</span><p>
+                        
+                            <p > 
+                                    <span class="btn btn-success">HTML</span> 
+                                    <span class="btn btn-success">CSS</span>  
+                                    
+                                     <span class="btn btn-success">BOOTSTRAP</span>  
+                                       
+                                     <span class="btn btn-success">FILEZILLA</span> 
+                                     <span class="btn btn-success">SEO <i>B&aacute;sico</i></span>
+                                     <span class="btn btn-warning">WORDPRESS</span> 
+                                     <span class="btn btn-danger">GIT</span> 
+                                     
+                                     <span class="btn btn-danger">SASS</span> 
+                            </p>
+                            <p>
+                                <span class="btn btn-success">PHOTOSHOP</span>  <span class="btn btn-warning">ILLUSTRATOR</span>  <span class="btn btn-danger">XD</span>  <span class="btn btn-danger">INDESIGN</span>
+                            </p>
+                            <p><span class="btn btn-success">FILMORA</span> 
+                                <span class="btn btn-warning">AFTER EFFECTS</span>   <span class="btn btn-danger">PREMIERE</span>
+                            </p>
                                                       
                         </div>
 
@@ -169,7 +209,7 @@
                                 <div class="col-md-4 md-margin-b-4 ">
                                     <div class="service" data-height="height">
                                         <div class="service-element">
-                                            <i class="service-icon icon-chemistry"></i>
+                                            <i class="service-icon color-black fas fa-desktop"></i>
                                         </div>
                                         <div class="service-info"  >
                                             <h3  style="color: black;" >Multimedia</h3>
@@ -185,9 +225,9 @@ Edición de video, Modelado 3D y Post-producción Audiovisual.</i></p>
 
 
                                 <div class="col-md-4 md-margin-b-4">
-                                    <div class="service wow zoomIn" style="background-color: #814d42;" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <div class="service serviceWeb wow zoomIn"  data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="service-element">
-                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                            <i class="service-icon color-white fas fa-code"></i>
                                         </div>
                                         <div class="service-info">
                                             <h3 class="color-white">Web</h3>
@@ -203,7 +243,7 @@ Edición de video, Modelado 3D y Post-producción Audiovisual.</i></p>
                                 <div class="col-md-4" style="padding: 0;">
                                     <div class="service" data-height="height">
                                         <div class="service-element">
-                                            <i class="service-icon icon-badge"></i>
+                                            <i class="service-icon fas fa-palette"></i>
                                         </div>
                                         <div class="service-info">
                                             <h3 style="color: black;" >Gráfico</h3>
@@ -231,8 +271,8 @@ Edición de video, Modelado 3D y Post-producción Audiovisual.</i></p>
                         <div class="text-right sm-text-left">
                             <h2 class="margin-b-0 color-white">Portfolio</h2>
                             <ul style="list-style: none;">
-                                <li><a href="https://www.behance.net/alexcv" target="_blank" >Behance</a></li>
-                                <li><a href="https://github.com/nn11kk00/" target="_blank" >GitHub</a></li>
+                                <li><a href="https://www.behance.net/alexcv" target="_blank" ><small>▶</small>  Behance</a></li>
+                                <li><a href="https://github.com/nn11kk00/" target="_blank" ><small>▶</small>  GitHub</a></li>
                             </ul>
                         </div>
                     </div>
